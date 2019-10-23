@@ -1,7 +1,7 @@
 {
   "name": "@microlink/ping-url",
   "description": "Fast DNS resolution caching results for a while.",
-  "homepage": "https://nicedoc.io/microlink/ping-url",
+  "homepage": "https://nicedoc.io/microlinkhq/ping-url",
   "version": "1.0.2",
   "main": "index.js",
   "author": {
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microlink/ping-url.git"
+    "url": "git+https://github.com/microlinkhq/ping-url.git"
   },
   "bugs": {
-    "url": "https://github.com/microlink/ping-url/issues"
+    "url": "https://github.com/microlinkhq/ping-url/issues"
   },
   "keywords": [
     "cache",
