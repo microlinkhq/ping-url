@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/microlink/ping-url/compare/v1.0.0...v1.0.1) (2019-10-23)
+
+
+### Bug Fixes
+
+* meta ([2b8fef0](https://github.com/microlink/ping-url/commit/2b8fef0e180b6fb4c2fa7841795304af010c2d70))
+
 ## [1.0.0](http://github.com///compare/v0.0.1...v1.0.0) (2019-10-23)
 
 ### 0.0.1 (2019-10-23)
