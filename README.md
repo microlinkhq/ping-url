@@ -17,10 +17,10 @@ Ping an URL for getting the canonical URL and store the result into a cache, res
 
 Suggested TTL could be:
 
-- **Very Short**: 300 seconds (5 minutes)
-- **Short**: 3600 seconds (1 hour)
-- **Long**: 86400 seconds (24 hours)
-- **Insanity**: 604800 seconds (7 days)
+- **Very Short**: 300 seconds (5 minutes).
+- **Short**: 3600 seconds (1 hour).
+- **Long**: 86400 seconds (24 hours).
+- **Insanity**: 604800 seconds (7 days).
 
 This library support any data storage provided by [`keyv`](https://npm.im/keyv).
 
