@@ -6,7 +6,6 @@ const memoize = require('memoized-keyv')
 const isStream = require('is-stream')
 const pReflect = require('p-reflect')
 const { omitBy } = require('lodash')
-const Keyv = require('keyv')
 
 const pingUrl = async (...args) => {
   const { value, ...result } = await pReflect(reachableUrl(...args))
@@ -14,7 +13,4 @@ const pingUrl = async (...args) => {
   return { ...result, ...sanetizeValue }
 }
 
-module.exports = opts =>
-  memoize(pingUrl, new Keyv(opts), {
-    resolver: normalizeUrl
-  })
+module.exports = opts => memoize(pingUrl, opts, { resolver: normalizeUrl })

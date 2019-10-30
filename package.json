@@ -31,7 +31,6 @@
   ],
   "dependencies": {
     "is-stream": "~2.0.0",
-    "keyv": "~3.1.0",
     "lodash": "~4.17.15",
     "memoized-keyv": "~1.1.1",
     "normalize-url": "~4.5.0",
