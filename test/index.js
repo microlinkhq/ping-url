@@ -23,7 +23,6 @@ test('sort query parameters', async t => {
   const resTwo = await pingUrl(targetUrlTwo)
 
   t.true(resOne.url === resTwo.url)
-
   t.true(cache.has(`keyv:${targetUrlOne}`))
   t.false(cache.has(`keyv:${targetUrlTwo}`))
 })
@@ -31,14 +30,13 @@ test('sort query parameters', async t => {
 test('unencoded URL', async t => {
   const cache = new Map()
   const pingUrl = createPingUrl({ store: cache })
-
   const targetUrl =
     'https://medium.com/@Acegikmo/the-ever-so-lovely-bézier-curve-eb27514da3bf'
 
-  const { url } = await pingUrl(targetUrl)
-
+  const { isFulfilled, value } = await pingUrl(targetUrl)
+  t.true(isFulfilled)
   t.is(
-    url,
+    value.url,
     'https://medium.com/@Acegikmo/the-ever-so-lovely-b%C3%A9zier-curve-eb27514da3bf'
   )
 })
@@ -47,7 +45,7 @@ test('follows redirect', async t => {
   const cache = new Map()
   const pingUrl = createPingUrl({ store: cache })
 
-  const { url } = await pingUrl('https://google.com')
-
-  t.is(url, 'https://www.google.com/')
+  const { isFulfilled, value } = await pingUrl('https://google.com')
+  t.true(isFulfilled)
+  t.is(value.url, 'https://www.google.com/')
 })

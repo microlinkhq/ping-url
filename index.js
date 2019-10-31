@@ -10,7 +10,7 @@ const { omitBy } = require('lodash')
 const pingUrl = async (...args) => {
   const { value, ...result } = await pReflect(reachableUrl(...args))
   const sanetizeValue = omitBy(value, isStream)
-  return { ...result, ...sanetizeValue }
+  return { ...result, value: sanetizeValue }
 }
 
 module.exports = opts => memoize(pingUrl, opts, { resolver: normalizeUrl })
