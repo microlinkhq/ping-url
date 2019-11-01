@@ -13,4 +13,8 @@ const pingUrl = async (...args) => {
   return { ...result, value: sanetizeValue }
 }
 
-module.exports = opts => memoize(pingUrl, opts, { resolver: normalizeUrl })
+module.exports = (keyOpts, memOpts) =>
+  memoize(pingUrl, keyOpts, {
+    resolver: normalizeUrl,
+    ...memOpts
+  })

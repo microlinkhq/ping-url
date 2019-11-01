@@ -47,11 +47,15 @@ The payload returned by `pingUrl` will be `response` but without any stream obje
 
 ## API
 
-### pingUrl([options])
+### pingUrl([keyOpts], [memOpts])
 
-#### options
+#### keyOpts
 
 See [`keyv#options`](https://www.npmjs.com/package/keyv#new-keyvuri-options).
+
+#### memOpts
+
+See [`memoized-keyv`](https://www.npmjs.com/package/memoized-keyv).
 
 ## License
 
