@@ -57,6 +57,13 @@ See [`keyv#options`](https://www.npmjs.com/package/keyv#new-keyvuri-options).
 
 See [`memoized-keyv`](https://www.npmjs.com/package/memoized-keyv).
 
+##### decorate
+
+Type: `function`<br/>
+Default: `lodash.identity`
+
+Setup a function to be executed before save the content into the store.
+
 ## License
 
 **@microlink/ping-url** © [Microlink](https://microlink.io), released under the [MIT](https://github.com/microlink/ping-url/blob/master/LICENSE.md) License.<br>
