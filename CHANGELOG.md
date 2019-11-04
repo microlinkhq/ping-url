@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/microlinkhq/ping-url/compare/v1.0.7...v1.1.0) (2019-11-04)
+
+
+### Features
+
+* add decorate support ([60fca26](https://github.com/microlinkhq/ping-url/commit/60fca262eacb2ba4954a3e0adcca881940800ad5))
+
 ### [1.0.7](https://github.com/microlinkhq/ping-url/compare/v1.0.6...v1.0.7) (2019-11-01)
 
 ### [1.0.6](https://github.com/microlinkhq/ping-url/compare/v1.0.5...v1.0.6) (2019-10-31)
