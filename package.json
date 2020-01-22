@@ -35,7 +35,7 @@
     "memoized-keyv": "~1.1.2",
     "normalize-url": "~4.5.0",
     "p-reflect": "~2.1.0",
-    "reachable-url": "~1.2.2"
+    "reachable-url": "~1.2.3"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
