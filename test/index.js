@@ -34,20 +34,18 @@ test('unencoded URL', async t => {
   const targetUrl =
     'https://medium.com/@Acegikmo/the-ever-so-lovely-bézier-curve-eb27514da3bf'
 
-  const { isFulfilled, value } = await pingUrl(targetUrl)
-  t.true(isFulfilled)
+  const value = await pingUrl(targetUrl)
   t.is(
     value.url,
     'https://medium.com/@Acegikmo/the-ever-so-lovely-b%C3%A9zier-curve-eb27514da3bf'
   )
 })
 
-test('follows redirect', async t => {
+test('follows redirects', async t => {
   const cache = new Map()
   const pingUrl = createPingUrl({ store: cache })
 
-  const { isFulfilled, value } = await pingUrl('https://google.com')
-  t.true(isFulfilled)
+  const value = await pingUrl('https://google.com')
   t.is(value.url, 'https://www.google.com/')
 })
 
@@ -57,8 +55,7 @@ test('decorate support', async t => {
     { store: cache },
     { decorate: value => pick(value, ['url']) }
   )
-  const { isFulfilled, value } = await pingUrl('https://google.com')
-  t.true(isFulfilled)
+  const value = await pingUrl('https://google.com')
   t.is(value.url, 'https://www.google.com/')
   t.is(size(value), 1)
 })
