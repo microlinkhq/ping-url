@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/microlinkhq/ping-url/compare/v1.2.0...v1.3.0) (2020-01-23)
+
+
+### Features
+
+* remove p-reflect ([4d46892](https://github.com/microlinkhq/ping-url/commit/4d46892f9d948af8cd2713ae1e4a6363f0680e94))
+
 ## [1.2.0](https://github.com/microlinkhq/ping-url/compare/v1.1.5...v1.2.0) (2020-01-23)
 
 ### [1.1.5](https://github.com/microlinkhq/ping-url/compare/v1.1.4...v1.1.5) (2020-01-22)
