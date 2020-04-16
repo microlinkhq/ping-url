@@ -49,7 +49,7 @@ test('follows redirects', async t => {
   t.is(value.url, 'https://www.google.com/')
 })
 
-test('decorate support', async t => {
+test.only('decorate support', async t => {
   const cache = new Map()
   const pingUrl = createPingUrl(
     { store: cache },
