@@ -31,10 +31,10 @@
   ],
   "dependencies": {
     "is-stream": "~2.0.0",
-    "lodash": "~4.17.19",
+    "lodash": "~4.17.20",
     "memoized-keyv": "~1.1.2",
     "normalize-url": "~5.3.0",
-    "reachable-url": "~1.4.13"
+    "reachable-url": "~1.4.17"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
