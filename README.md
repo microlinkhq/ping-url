@@ -3,10 +3,7 @@
 </div>
 
 ![Last version](https://img.shields.io/github/tag/microlinkhq/ping-url.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/com/microlinkhq/ping-url/master.svg?style=flat-square)](https://travis-ci.com/microlink/ping-url)
 [![Coverage Status](https://img.shields.io/coveralls/microlinkhq/ping-url.svg?style=flat-square)](https://coveralls.io/github/microlinkhq/ping-url)
-[![Dependency status](https://img.shields.io/david/microlinkhq/ping-url.svg?style=flat-square)](https://david-dm.org/microlinkhq/ping-url)
-[![Dev Dependencies Status](https://img.shields.io/david/dev/microlinkhq/ping-url.svg?style=flat-square)](https://david-dm.org/microlinkhq/ping-url#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/@microlink/ping-url.svg?style=flat-square)](https://www.npmjs.org/package/@microlink/ping-url)
 
 > Fast DNS resolution caching results for a while.
