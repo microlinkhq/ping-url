@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.3.17 (2021-08-01)
+
 ### [1.3.16](https://github.com/microlinkhq/ping-url/compare/v1.3.15...v1.3.16) (2021-07-17)
 
 ### [1.3.15](https://github.com/microlinkhq/ping-url/compare/v1.3.14...v1.3.15) (2021-06-29)
