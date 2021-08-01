@@ -3,7 +3,7 @@
 const { identity, omitBy } = require('lodash')
 const reachableUrl = require('reachable-url')
 const normalizeUrl = require('normalize-url')
-const memoize = require('memoized-keyv')
+const memoize = require('@keyvhq/memoize')
 const isStream = require('is-stream')
 
 const pingUrl = decorate => async (...args) =>

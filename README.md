@@ -46,15 +46,17 @@ The payload returned by `pingUrl` will be `response` but without any stream obje
 
 ## API
 
-### pingUrl([keyOpts], [memOpts])
+### pingUrl([keyvOptions], [memoizeOptions])
 
-#### keyOpts
+#### keyvOptions
 
 See [`keyv#options`](https://www.npmjs.com/package/keyv#new-keyvuri-options).
 
-#### memOpts
+#### memoizeOptions
 
-See [`memoized-keyv`](https://www.npmjs.com/package/memoized-keyv).
+See [`@keyvhq/memoize`](https://github.com/microlinkhq/keyv/tree/master/packages/memoize).
+
+Additionally, you can setup:
 
 ##### decorate
 
