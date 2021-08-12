@@ -30,10 +30,9 @@
     "url"
   ],
   "dependencies": {
-    "@keyvhq/memoize": "~1.1.1",
+    "@keyvhq/memoize": "~1.2.0",
     "is-stream": "~2.0.0",
     "lodash": "~4.17.21",
-    "normalize-url": "~6.1.0",
     "reachable-url": "~1.6.0"
   },
   "devDependencies": {

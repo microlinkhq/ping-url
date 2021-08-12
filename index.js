@@ -2,7 +2,6 @@
 
 const { identity, omitBy } = require('lodash')
 const reachableUrl = require('reachable-url')
-const normalizeUrl = require('normalize-url')
 const memoize = require('@keyvhq/memoize')
 const isStream = require('is-stream')
 
@@ -11,6 +10,5 @@ const pingUrl = decorate => async (...args) =>
 
 module.exports = (keyOpts, { decorate = identity, ...memOpts } = {}) =>
   memoize(pingUrl(decorate), keyOpts, {
-    resolver: normalizeUrl,
     ...memOpts
   })
