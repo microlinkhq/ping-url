@@ -10,7 +10,7 @@ test('cache an URL', async t => {
   const pingUrl = createPingUrl({ store: cache })
   const targetUrl = 'https://example.com'
   await pingUrl(targetUrl)
-  t.true(cache.has(`keyv:${targetUrl}`))
+  t.true(cache.has(targetUrl))
 })
 
 test('default key is the url', async t => {
