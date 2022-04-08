@@ -46,7 +46,7 @@ The payload returned by `pingUrl` will be `response` but without any stream obje
 
 ## API
 
-### pingUrl([keyvOptions], [memoizeOptions])
+### createPingUrl([keyvOptions], [memoizeOptions]) → pingUrl(url, [gotOpts])
 
 #### keyvOptions
 
@@ -56,7 +56,7 @@ See [`keyv#options`](https://www.npmjs.com/package/keyv#new-keyvuri-options).
 
 See [`@keyvhq/memoize`](https://github.com/microlinkhq/keyv/tree/master/packages/memoize).
 
-Additionally, you can setup:
+Additionally, you can :
 
 ##### decorate
 
@@ -64,6 +64,12 @@ Type: `function`<br/>
 Default: `lodash.identity`
 
 Setup a function to be executed before save the content into the store.
+
+#### gotOpts
+
+Type: `object`
+
+Any option provided here will passed to [got#options](https://github.com/sindresorhus/got#options).
 
 ## License
 
