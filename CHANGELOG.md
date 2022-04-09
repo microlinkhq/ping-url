@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.4.0 (2022-04-09)
+
+
+### Features
+
+* remove redundant decorate method ([6312f27](https://github.com/microlinkhq/ping-url/commit/6312f27d66db59545bb1cf4155dd5865f396d0a9))
+
 ### 1.3.25 (2022-04-04)
 
 ### 1.3.24 (2022-03-02)
