@@ -1,6 +1,5 @@
 'use strict'
 
-const { size, pick } = require('lodash')
 const test = require('ava')
 
 const createPingUrl = require('..')
@@ -49,11 +48,7 @@ test('follows redirects', async t => {
 
 test('decorate support', async t => {
   const cache = new Map()
-  const pingUrl = createPingUrl(
-    { store: cache },
-    { decorate: value => pick(value, ['url']) }
-  )
+  const pingUrl = createPingUrl({ store: cache }, { value: ({ url }) => url })
   const value = await pingUrl('https://google.com')
-  t.is(value.url, 'https://www.google.com/')
-  t.is(size(value), 1)
+  t.is(value, 'https://www.google.com/')
 })
