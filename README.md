@@ -67,4 +67,4 @@ Any option provided here will passed to [got#options](https://github.com/sindres
 **@microlink/ping-url** © [Microlink](https://microlink.io), released under the [MIT](https://github.com/microlink/ping-url/blob/master/LICENSE.md) License.<br>
 Authored and maintained by [Kiko Beats](https://kikobeats.com) with help from [contributors](https://github.com/microlink/ping-url/contributors).
 
-> [microlink.io](https://microlink.io) · GitHub [@MicrolinkHQ](https://github.com/microlinkhq) · Twitter [@microlinkhq](https://twitter.com/microlinkhq)
+> [microlink.io](https://microlink.io) · GitHub [microlinkhq](https://github.com/microlinkhq) · Twitter [@microlinkhq](https://twitter.com/microlinkhq)
