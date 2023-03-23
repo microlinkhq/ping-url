@@ -8,4 +8,4 @@ const { omitBy } = require('lodash')
 const pingUrl = async (...args) => omitBy(await reachableUrl(...args), isStream)
 
 module.exports = (keyOpts, memoOpts) => memoize(pingUrl, keyOpts, memoOpts)
-module.exports.isReachable = reachableUrl
+module.exports.isReachable = reachableUrl.isReachable
