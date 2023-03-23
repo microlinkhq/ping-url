@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.6](https://github.com/microlinkhq/ping-url/compare/v1.4.5...v1.4.6) (2023-03-23)
+
+
+### Bug Fixes
+
+* call isReachable ([a117a4b](https://github.com/microlinkhq/ping-url/commit/a117a4beea0d02f36ac9d3b9ffe6266be0d4fa5e))
+
 ### [1.4.5](https://github.com/microlinkhq/ping-url/compare/v1.4.4...v1.4.5) (2023-03-23)
 
 ### 1.4.4 (2022-09-24)
