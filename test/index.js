@@ -52,3 +52,7 @@ test('decorate support', async t => {
   const value = await pingUrl('https://google.com')
   t.is(value, 'https://www.google.com/')
 })
+
+test('expose .isReachable', async t => {
+  t.truthy(createPingUrl.isReachable)
+})
