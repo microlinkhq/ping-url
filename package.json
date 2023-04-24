@@ -2,7 +2,7 @@
   "name": "@microlink/ping-url",
   "description": "Fast DNS resolution caching results for a while.",
   "homepage": "https://nicedoc.io/microlinkhq/ping-url",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "main": "index.js",
   "author": {
     "email": "hello@microlink.io",
