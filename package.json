@@ -33,7 +33,7 @@
     "@keyvhq/memoize": "~2.1.0",
     "is-stream": "~2.0.0",
     "lodash": "~4.17.21",
-    "reachable-url": "~1.7.0"
+    "reachable-url": "~1.8.0"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
