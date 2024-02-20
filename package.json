@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "@keyvhq/memoize": "~2.1.0",
-    "is-stream": "~2.0.0",
+    "is-stream": "~4.0.1",
     "lodash": "~4.17.21",
     "reachable-url": "~1.8.0"
   },
