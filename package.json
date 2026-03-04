@@ -3,6 +3,7 @@
   "description": "Fast DNS resolution caching results for a while.",
   "homepage": "https://github.com/microlinkhq/ping-url",
   "version": "1.4.16",
+  "types": "index.d.ts",
   "main": "index.js",
   "author": {
     "email": "hello@microlink.io",
@@ -55,6 +56,7 @@
     "node": ">= 10"
   },
   "files": [
+    "index.d.ts",
     "index.js"
   ],
   "scripts": {
