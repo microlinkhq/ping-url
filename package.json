@@ -30,7 +30,7 @@
     "url"
   ],
   "dependencies": {
-    "@keyvhq/memoize": "~2.1.0",
+    "@keyvhq/memoize": "~2.2.1",
     "lodash": "~4.18.1",
     "reachable-url": "~1.8.0"
   },
