@@ -1,6 +1,6 @@
 {
   "name": "@microlink/ping-url",
-  "description": "Fast DNS resolution caching results for a while.",
+  "description": "Fast DNS resolution for URLs with short-lived caching via Keyv-compatible stores.",
   "homepage": "https://github.com/microlinkhq/ping-url",
   "version": "1.5.0",
   "main": "index.js",
@@ -25,8 +25,13 @@
   "keywords": [
     "cache",
     "dns",
+    "hostname",
     "keyv",
+    "lookup",
+    "network",
     "ping",
+    "resolve",
+    "ttl",
     "url"
   ],
   "dependencies": {
@@ -86,6 +91,7 @@
   ],
   "nano-staged": {
     "*.js": [
+      "npx @kikobeats/prettier-standard",
       "standard --fix"
     ],
     "*.md": [
