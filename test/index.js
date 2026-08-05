@@ -56,3 +56,10 @@ test('decorate support', async t => {
 test('expose .isReachable', async t => {
   t.truthy(createPingUrl.isReachable)
 })
+
+test('.isReachable treats a bare redirect as unfinished', t => {
+  t.true(createPingUrl.isReachable({ statusCode: 200 }))
+  t.false(createPingUrl.isReachable({ statusCode: 404 }))
+  t.false(createPingUrl.isReachable({ statusCode: 302 }))
+  t.true(createPingUrl.isReachable({ statusCode: 302, followRedirect: false }))
+})
