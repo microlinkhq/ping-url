@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.5.0 (2026-08-05)
+
+
+### Features
+
+* bump reachable-url to v2 ([#48](https://github.com/microlinkhq/ping-url/issues/48)) ([b1373d8](https://github.com/microlinkhq/ping-url/commit/b1373d84a3157c918e45dfc29b3045becf898c43))
+
 ### 1.4.21 (2026-08-03)
 
 ### 1.4.20 (2026-07-15)
