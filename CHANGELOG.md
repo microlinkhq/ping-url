@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.5.2 (2026-10-28)
+
+
+### Bug Fixes
+
+* declare the real minimum Node.js version ([#49](https://github.com/microlinkhq/ping-url/issues/49)) ([f03e8d4](https://github.com/microlinkhq/ping-url/commit/f03e8d443df91de049b91334f2e6e989d466faf2))
+
 ### 1.5.1 (2026-08-05)
 
 ## 1.5.0 (2026-08-05)
